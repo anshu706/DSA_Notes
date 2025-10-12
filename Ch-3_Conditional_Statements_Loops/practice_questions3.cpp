@@ -214,20 +214,53 @@ int main()
 
 //----------------------------------------------------------------------------------------------------------------
 
-//-------------------------------------------------- HOMEWORK --------------------------------------------------------------------------------------
+//-------------------------------------------------- H O M E W O R K --------------------------------------------------------------------------------------
 
 // SUM OF ALL NUMBERS FROM 1 TO N WHICH ARE DIVISIBLE BY 3.
 
+/*
 #include <iostream>
 using namespace std;
 int main()
 {
+    int n;
+    cout << "Enter n: ";
+    cin >> n;
 
+    int sum = 0;
+    for (int i = 1; i <= n; i++)
+    {
+        if (i % 3 == 0)
+        {
+            sum += i;
+        }
+    }
+    cout << "Sum of numbers from 1 to " << n << " \ndivisible by 3 is: " << sum << endl;
     return 0;
 }
+*/
 
 //----------------------------------------------------------------------------------------------------------------
 
 // PRINT FACTORIAL OF A NUMBER N.
+/*
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n;
+    cout << "Enter n: ";
+    cin >> n;
+
+    long long factorial = 1;
+    for (int i = 1; i <= n; i++)
+    {
+        factorial *= i;
+    }
+    cout << "Factorial of " << n << " is: " << factorial << endl;
+    return 0;
+}
+*/
 
 //----------------------------------------------------------------------------------------------------------------
