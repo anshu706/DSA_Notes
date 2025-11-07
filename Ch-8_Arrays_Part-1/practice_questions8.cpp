@@ -109,6 +109,86 @@ int main()
 
 // WAF TO SWAP THE MAX & MIN NUMBER OF AN ARRAY
 
+/*
+#include <iostream>
+using namespace std;
+
+void swapMaxMin(int arr[], int n)
+{
+    if (n <= 0)
+        return;
+
+    int maxIndex = 0, minIndex = 0;
+
+    for (int i = 1; i < n; i++)
+    {
+        if (arr[i] > arr[maxIndex])
+            maxIndex = i;
+        if (arr[i] < arr[minIndex])
+            minIndex = i;
+    }
+
+    int temp = arr[maxIndex];
+    arr[maxIndex] = arr[minIndex];
+    arr[minIndex] = temp;
+}
+
+int main()
+{
+    int arr[100] = {2, 5, 7, 9, 8};
+    int n = 5;
+
+    for (int i = 0; i < n; i++)
+        cout << arr[i] << " ";
+
+    swapMaxMin(arr, n);
+
+    cout << "\nArray after swapping max and min elements:\n";
+    for (int i = 0; i < n; i++)
+        cout << arr[i] << " ";
+
+    cout << endl;
+    return 0;
+}
+*/
+
 // WAF TO PRINT ALL THE UNIQUE VALUES IN AN ARRAY.
 
-// WAF TO PRINT INTERSECTION OF 2 ARRAYS.
+/*
+#include <iostream>
+using namespace std;
+
+void printUnique(int arr[], int n)
+{
+    cout << "\nUnique elements are: ";
+    for (int i = 0; i < n; i++)
+    {
+        bool isUnique = true;
+
+        for (int j = 0; j < n; j++)
+        {
+            if (i != j && arr[i] == arr[j])
+            {
+                isUnique = false;
+                break;
+            }
+        }
+
+        if (isUnique)
+            cout << arr[i] << " ";
+    }
+    cout << endl;
+}
+
+int main()
+{
+    int arr[100] = {1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 8, 7, 8, 9, 0};
+    int n = 15;
+
+    for (int i = 0; i < n; i++)
+        cout << arr[i] << " ";
+
+    printUnique(arr, n);
+    return 0;
+}
+*/
