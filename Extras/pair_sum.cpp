@@ -1,4 +1,4 @@
-// BRUTE FORCE APPROACH
+// Brute Force Approach
 
 #include <iostream>
 #include <vector>
