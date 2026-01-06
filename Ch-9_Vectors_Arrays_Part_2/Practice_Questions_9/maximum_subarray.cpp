@@ -1,30 +1,8 @@
-// 136. SINGLE NUMBER [Leetcode]
-/*
-#include <iostream>
-#include <vector>
-using namespace std;
-
-class Solution
-{
-public:
-    int singleNumber(vector<int> &nums)
-    {
-        int ans = 0;
-
-        for (int val : nums)
-        {
-            ans = ans - val; // ans ^a val;
-        }
-        return ans;
-    }
-};
-*/
 
 //------------------------------------KADANE ALGORITHM-----------------------------------------------------------
 
 // MAXIMUM SUBARRAY SUM [ Brute Force APPROACH ]
 
-/*
 #include <iostream>
 #include <vector>
 #include <climits>
@@ -50,4 +28,3 @@ int main()
 
     return 0;
 }
-*/
