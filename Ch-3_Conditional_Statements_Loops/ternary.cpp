@@ -1,5 +1,5 @@
 // TERNARY STATEMENT
-// Syntax: condition? str1:strr2
+// Syntax: condition? str1:str2
 
 #include <iostream>
 using namespace std;
