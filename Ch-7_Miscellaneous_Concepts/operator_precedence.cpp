@@ -6,7 +6,7 @@ OPERATORS                  PRECEDENCE
 + , -                      -> L to R
 < ,<= ,> ,>=               -> L to R
 == , !=                    -> L to R
-" "                        -> L to R
+&&                         -> L to R
 ||                         -> L to R
 = (assignment operator)    -> R to L
 */

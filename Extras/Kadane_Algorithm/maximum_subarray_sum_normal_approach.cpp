@@ -1,4 +1,7 @@
-// Maximum Subarray Sum
+
+//------------------------------------KADANE ALGORITHM-----------------------------------------------------------
+
+// Maximum Subarray Sum [Normal]
 
 #include <iostream>
 #include <vector>
