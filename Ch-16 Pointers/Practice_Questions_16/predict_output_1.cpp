@@ -1,0 +1,31 @@
+/*
+Question..
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a = 5;
+    int *p = &a;
+    int **q = &p;
+
+    cout << *p << endl;
+    cout << **q << endl;
+    cout << p << endl;
+    cout << *q << endl;
+
+    return 0;
+}
+
+*/
+// Answer
+
+/*
+
+*p -> 5
+
+**q -> 5
+
+p -> (address of a)
+*q -> (address of a)
+*/
