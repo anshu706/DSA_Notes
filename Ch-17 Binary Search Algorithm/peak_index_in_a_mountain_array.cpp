@@ -15,14 +15,13 @@ public:
             }
             else if (arr[mid + 1] < arr[mid])
             {
-                st = mid + 1;
-            }
-            else // left
-            {
                 end = mid - 1;
             }
+            else
+            {
+                st = mid + 1;
+            }
         }
-
         return -1;
     }
 };
